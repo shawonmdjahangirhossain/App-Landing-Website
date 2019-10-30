@@ -32,9 +32,15 @@ It is a App Landing Webpage,where there is app features seen.Anybody can contact
 **5.Apps Update Blog**
 
 ## Plan for project
-Atfirst prototype this web app,then use HTML, CSS, Javascript for forntend and Node.js use for backend.also use for contact form. Because contact form need validatiton.
 
-For apps update blog i use node.js for backend,and all blog's data save in mongodb database.using http client call all data from mongodb and show this data in website. Only the website admin create,update,delete(CRUD Operation) this blog. 
+* **Week 9 - Complete Frontend**
+* **Week 10 - Some major modify in Frontend**
+* **Week 11 - Optimize Forntend**
+* **Week 12 - Preparetion for Backend**
+* **Week 13 - Install Node.js and add some module**
+* **week 14 - Create Blog**
+* **Week 15 - Create Database and Connect to the node.js**
+* **Week 16 - Submit Project**
 
 ## Live Demo
 I also upload my project in Github page
