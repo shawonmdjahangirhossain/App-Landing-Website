@@ -1,23 +1,43 @@
 # App-Landing-Website
 
-It is a App Landing Webpage,where there is app features seen.
+## Introduction
+It is a App Landing Webpage,where there is app features seen.Anybody can contact us from contact form.
 
-#Features
-1.App Sample
-2.App Download
-3.App Features Slider
-4.Apps Update Blog
-5.Apps Contact
+## Technology
+### Frontend
+* **HTML**
+* **CSS**
+* **Bootstrap**
+* **Javascript**
 
-#Technology
-Frontend
-1.HTML
-2.CSS
-3.Javascript
-4.Bootstrap
+### Backtend
+* **Node.js**
 
-Backend
-1.NodeJS
+### CRUD Operation
+* **MongoDB**
 
-CRUD Operation
-1.MongoDB
+### IDE & Browser
+* **Visual Code**
+* **Google Chrome**
+
+## Features
+**1. App Sample.**
+
+**2. App Download**
+
+**3. App Features Slider.**
+
+**4. Contact From.**
+
+**5.Apps Update Blog**
+
+## Plan for project
+Atfirst prototype this web app,then use HTML, CSS, Javascript for forntend and Node.js use for backend.also use for contact form. Because contact form need validatiton.
+
+For apps update blog i use node.js for backend,and all blog's data save in mongodb database.using http client call all data from mongodb and show this data in website. Only the website admin create,update,delete(CRUD Operation) this blog. 
+
+## Live Demo
+I also upload my project in Github page
+
+<<<<<<<<<<<**[Live Demo] https://shawonmdjahangirhossain.github.io/App-Landing-Website/)**>>>>>>>>>>>>>>
+
