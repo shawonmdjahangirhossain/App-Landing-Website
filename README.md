@@ -39,5 +39,5 @@ For apps update blog i use node.js for backend,and all blog's data save in mongo
 ## Live Demo
 I also upload my project in Github page
 
-<<<<<<<<<<<**[Live Demo] (https://shawonmdjahangirhossain.github.io/App-Landing-Website/)**>>>>>>>>>>>>>>
+<<<<<<<<<<<**[Live Demo](https://shawonmdjahangirhossain.github.io/App-Landing-Website/)**>>>>>>>>>>>>>>
 
