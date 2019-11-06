@@ -154,3 +154,15 @@ header {
     margin-left: 800px;
     
 }
+.form-group{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+#features{
+    padding-top: 10vh !important;
+}
+
+#Review{
+    padding-top: 10vh !important;
+}
