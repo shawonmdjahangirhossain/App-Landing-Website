@@ -6,6 +6,9 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+b, sup, sub, u, del {
+  color: #353071 !important;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #46dbf9;
