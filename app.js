@@ -18,8 +18,9 @@ passportInitialize(passport,
 
 app.use(flash());
 app.use(session({
-    secret: process.env.SECRETE_SESSION,
+    secret: process.env.SECRET_SESSION,
     save: false,
+    resave: false,
     saveUninitialized: false
 }));
 
