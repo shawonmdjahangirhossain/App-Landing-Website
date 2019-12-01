@@ -45,5 +45,5 @@ It is a App Landing Webpage,where there is app features seen.Anybody can contact
 ## Live Demo
 I also upload my project in Github page
 
-<<<<<<<<<<<**[Live Demo]( https://pure-journey-91009.herokuapp.com/ deployed to Heroku)**>>>>>>>>>>>>>>
+<<<<<<<<<<<**[Live Demo]( https://pure-journey-91009.herokuapp.com/)**>>>>>>>>>>>>>>
 
