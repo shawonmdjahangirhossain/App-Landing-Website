@@ -1,12 +1,11 @@
+// jshint esversion:8
 const express = require('express');
-const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const passport = require('passport');
 const flash = require('connect-flash');
 const session = require('express-session');
-
 const app = express();
-
+app.use(express.static("public"));
 // Passport Config
 require('./config/passport')(passport);
 
@@ -17,13 +16,12 @@ const db = require('./config/keys').mongoURI;
 mongoose
   .connect(
     db,
-    { useNewUrlParser: true }
+    { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err));
 
 // EJS
-app.use(expressLayouts);
 app.set('view engine', 'ejs');
 
 // Express body parser
@@ -54,11 +52,40 @@ app.use(function(req, res, next) {
 });
 
 // Routes
-app.use('/', require('./routes/index.js'));
+app.use("/", require("./routes/index.js"));
 app.use('/users', require('./routes/users.js'));
 
-
-
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`));
+
+
+
+app.use(express.static("public"));
+
+
+
+app.get("/",(req,res)=>{
+    res.render("index");
+});
+app.get("/about",(req,res)=>{
+    res.render("about");
+});
+app.get("/blog-home",(req,res)=>{
+    res.render("blog-home");
+});
+app.get("/blog",(req,res)=>{
+    res.render("blog");
+});
+app.get("/pricing",(req,res)=>{
+    res.render("pricing");
+});
+app.get("/contact",(req,res)=>{
+    res.render("contact");
+});
+app.get("/adminblog",(req,res)=>{
+    res.render("adminblog");
+});
+app.get("/team",(req,res)=>{
+  res.render("team");
+});
